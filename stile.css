@@ -1,34 +1,32 @@
-
-header {
-  overflow: hidden;
-  background-color: #ffffff;
-  padding: 20px 10px;
-}
-header a {
-  float: left;
-  color: #212121;
-  text-align: center;`
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
+.menu {
+    display: table;
+    width: 90%;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
-header a.logo {
-  font-size: 25px;
-  font-weight: bold;
+.menu li {
+    display: table-cell;
+    float: none;
 }
-header a:hover {
-  background-color: #FBC02D;
-  color: #212121;
+.menu li a {
+    display: block;
+    margin: 0 0 0 0;
+    padding: 8px 25px;
+    background: #e8e8e8;
+    font-size: 14px;
+    color: #9F6B08;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
 }
-header a.active {
-  background-color: #FBC02D;
-  
-}
-nav {
-  float: right;
+
+.menu li a:hover {
+    background: #528CBF;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
 
 body{
@@ -37,11 +35,6 @@ body{
 }
 p{
     margin: 3px;
-}
-.menu{
-	height: 80px;
-	padding: 15px 50px;
-	background: #ffffff;
 }
   nav {
        float: none;
@@ -59,8 +52,9 @@ p{
 }
 img{
 	float: right;
-	max-width: 90px;
+	max-width: 80px;
 	height:auto;
+    margin-top: 5px;
 }
 .button{
     border: 1px solid #9F6B08;
@@ -73,7 +67,6 @@ img{
     float: left;
     margin: 0px 3px;
     text-decoration: none;
-
 }
 .car1{
 
